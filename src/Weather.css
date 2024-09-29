@@ -2,7 +2,8 @@
   font-family: Arial, sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
-  border: 4px;
+  padding-bottom: 0;
+  border-radius: 4px;
   color: rgb(135, 135, 135);
 }
 
@@ -32,20 +33,23 @@
   display: inline-block;
 }
 
-.Weather.temperature {
+.Weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
-  font-size: 64px;
+  font-size: 40px;
   line-height: 64px;
   font-weight: 400;
+  position: relative;
+  top: -70px;
+  right: -70px;
 }
 
 .Weather .unit {
   color: rgb(33, 33, 33);
   font-size: 16px;
-  font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -85px;
+  right: -70px;
   margin-left: 5px;
 }
