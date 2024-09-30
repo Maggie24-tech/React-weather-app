@@ -9,11 +9,11 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-      temperature: response.data.main.temp,
+      temperture: response.data.main.temp,
       humidity: response.data.main.humidity,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/rain_light.png",
+      iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       wind: response.data.wind.speed,
       city: response.data.name,
     });
@@ -31,7 +31,7 @@ export default function Weather(props) {
   }
 
   function handleCityChange(event) {
-    setCity(event.targret.value);
+    setCity(event.target.value);
   }
 
   if (weatherData.ready) {
