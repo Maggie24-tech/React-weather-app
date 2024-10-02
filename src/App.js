@@ -19,12 +19,14 @@ export default function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/Maggie24-tech/React-app"
+            href="https://github.com/Maggie24-tech/React-weather-app"
             target="_blank"
             rel="noreferrer"
           >
             open-sourced on Github
-          </a>
+          </a>{" "}
+          and hosted on
+          <a href="https://reacweatherapp.netlify.app"> Netlify </a>
         </footer>
       </div>
     </div>
