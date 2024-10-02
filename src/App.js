@@ -25,7 +25,7 @@ export default function App() {
           >
             open-sourced on Github
           </a>{" "}
-          and hosted on
+          and hosted on{" "}
           <a href="https://reacweatherapp.netlify.app"> Netlify </a>
         </footer>
       </div>

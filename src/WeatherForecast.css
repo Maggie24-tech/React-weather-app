@@ -5,4 +5,9 @@
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
+  color: darkblue;
+}
+
+.WeatherForecast-temperature-max {
+  color: darkblue;
 }
