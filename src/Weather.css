@@ -12,7 +12,7 @@
   border-color: rgb(34, 90, 164);
   color: aquamarine;
   margin-left: -16px;
-  padding: 5px 35px;
+  padding: 35px auto;
 }
 
 .search-btn:hover,
